@@ -53,7 +53,7 @@ pi --role linyan
 
 支持 SillyTavern 资产：v1/v2/v3 角色卡 JSON、含 `chara`/`ccv3` 文本块的 PNG 卡、World Info 世界书 JSON
 （含 `character_book` 内嵌书）。字段映射与不支持项见 [docs/ST-COMPAT.md](docs/ST-COMPAT.md)，
-格式细节见 [docs/FORMAT.md](docs/FORMAT.md)。
+玩法与命令详解见 [docs/USAGE.md](docs/USAGE.md)；格式细节见 [docs/FORMAT.md](docs/FORMAT.md)。
 
 ## 配置（`config.json`，全部可选）
 
