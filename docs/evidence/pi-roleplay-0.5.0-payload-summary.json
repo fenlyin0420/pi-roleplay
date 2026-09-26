@@ -1,0 +1,61 @@
+{
+  "note": "before_provider_request payload for `pi --role alice -p \"...\"` @ pi 0.87.0, @xicode/pi-roleplay 0.5.0",
+  "payload_model": "deepseek-flash",
+  "tools": [
+    "read",
+    "bash",
+    "edit",
+    "write",
+    "roleplay_finalize_turn"
+  ],
+  "tool_schema_bytes": {
+    "read": 839,
+    "bash": 654,
+    "edit": 1297,
+    "write": 500,
+    "roleplay_finalize_turn": 7878
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content_chars": 10483,
+      "content": "<omitted: see markers>"
+    },
+    {
+      "role": "user",
+      "content_chars": 386,
+      "content": "<omitted: see markers>"
+    }
+  ],
+  "system_markers": {
+    "<roleplay_character": [
+      1,
+      0
+    ],
+    "</roleplay_character>": [
+      1,
+      1169
+    ],
+    "expert coding assistant": [
+      1,
+      1226
+    ],
+    "<docs>": [
+      1,
+      3770
+    ],
+    "<skills>": [
+      1,
+      5082
+    ],
+    "<cwd>": [
+      1,
+      9919
+    ],
+    "roleplay_finalize_turn": [
+      7,
+      1618
+    ]
+  },
+  "system_total_chars": 10483
+}
