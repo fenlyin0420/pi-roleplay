@@ -9,10 +9,7 @@
 
 ```bash
 # 1) 注册扩展（全局，对所有 pi 进程生效；未进入角色模式时完全惰性）
-#    在 ~/.pi/agent/settings.json 里加：
-{
-  "extensions": ["/home/fenlyin/Documents/GitHub/pi-roleplay/src/index.ts"]
-}
+pi install git:github.com/fenlyin0420/pi-roleplay
 
 # 2) 装示例资产（可选，装完不会自动进入角色模式）
 pi -p "/rp init global"

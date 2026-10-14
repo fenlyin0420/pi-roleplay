@@ -103,11 +103,12 @@ token 估算用 CJK 计 1、其余 4 字符计 1 的启发式（`estimateTokens`
 
 ```bash
 V=/tmp/rp-verify
+ROOT=$PWD  # 在仓库根目录执行
 mkdir -p $V/agent
 cp ~/.pi/agent/models.json $V/agent/
-cat > $V/agent/settings.json <<'EOF'
+cat > $V/agent/settings.json <<EOF
 { "defaultProvider": "deepseek", "defaultModel": "deepseek-flash",
-  "extensions": ["/home/fenlyin/Documents/GitHub/pi-roleplay/src/index.ts"] }
+  "extensions": ["$ROOT/src/index.ts"] }
 EOF
 PI_CODING_AGENT_DIR=$V/agent pi -p "/rp init global"
 
