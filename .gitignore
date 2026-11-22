@@ -2,3 +2,5 @@ node_modules/
 *.log
 .pi/
 .agents/memory/
+.agents/
+*.tgz
